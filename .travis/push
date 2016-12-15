@@ -3,14 +3,14 @@ APP_NAME=$1
 NEO=./target/sdk/tools/neo.sh
 pwd
 echo Deploying "$cloud-basecamp"
-$NEO deploy -a "$jaehyunseo" \
+$NEO deploy -a "$p1942258683trial" \
        -b "$cloud-basecampl" \
        -h "$hanatrial.ondemand.com" \
        -u "$p1942258683" \
        -p "$Wogus339#" \
        -s ./target/basecamp-1.0.0.war
 echo Restarting app...
-$NEO restart -a "$jaehyunseo" \
+$NEO restart -a "$p1942258683trial" \
              -b "$cloud-basecamp" \
              -h "$hanatrial.ondemand.com" \
              -u "$p1942258683" \
