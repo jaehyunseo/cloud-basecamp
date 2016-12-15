@@ -13,6 +13,6 @@ echo Restarting app...
 $NEO restart -a "$jaehyunseo" \
              -b "$cloud-basecamp" \
              -h "$hanatrial.ondemand.com" \
-             -u "$jaehyunseo" \
+             -u "$p1942258683" \
              -p "$Wogus339#"
 echo DEPLOYMENT FINISHED
