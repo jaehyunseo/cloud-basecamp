@@ -2,7 +2,7 @@
 APP_NAME=$1
 NEO=./target/sdk/tools/neo.sh
 pwd
-echo Deploying "$.travis.yml"
+echo Deploying "$cloud-basecamp"
 $NEO deploy -a "$jaehyunseo" \
        -b "$.travis.yml" \
        -h "$hanatrial.ondemand.com" \
@@ -11,7 +11,7 @@ $NEO deploy -a "$jaehyunseo" \
        -s ./target/basecamp-1.0.0.war
 echo Restarting app...
 $NEO restart -a "$jaehyunseo" \
-             -b "$.travis.yml" \
+             -b "$cloud-basecamp" \
              -h "$hanatrial.ondemand.com" \
              -u "$jaehyunseo" \
              -p "$Wogus339#"
