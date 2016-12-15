@@ -6,7 +6,7 @@ echo Deploying "$cloud-basecamp"
 $NEO deploy -a "$jaehyunseo" \
        -b "$cloud-basecampl" \
        -h "$hanatrial.ondemand.com" \
-       -u "$jaehyunseo" \
+       -u "$p1942258683" \
        -p "$Wogus339#" \
        -s ./target/basecamp-1.0.0.war
 echo Restarting app...
