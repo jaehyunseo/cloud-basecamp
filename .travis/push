@@ -4,7 +4,7 @@ NEO=./target/sdk/tools/neo.sh
 pwd
 echo Deploying "$cloud-basecamp"
 $NEO deploy -a "$jaehyunseo" \
-       -b "$.travis.yml" \
+       -b "$cloud-basecampl" \
        -h "$hanatrial.ondemand.com" \
        -u "$jaehyunseo" \
        -p "$Wogus339#" \
