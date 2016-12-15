@@ -91,6 +91,27 @@
 					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+				<groupId>com.sap.cloud</groupId>
+				<artifactId>neo-java-web-maven-plugin</artifactId>
+				<version>3.18.10</version>
+				<executions>
+				<execution>
+				<phase>install</phase>
+				<goals>
+				<goal>install-sdk</goal>
+				</goals>
+				</execution>
+				</executions>
+				<configuration>
+				<!-- Location of the SAP HANA Cloud Platform SDK -->
+				<sdkInstallPath>${project.build.directory}/sdk</sdkInstallPath>
+				</configuration>
+			</plugin>
+							
+			
+			
 		</plugins>
 	</build>
 
